@@ -1,0 +1,14 @@
+.link {
+    cursor: pointer;
+    display: inline-flex;
+    width: 100%;
+    background-color: #EAECF0;
+    /* color: #EAECF0; */
+    height: 60px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}

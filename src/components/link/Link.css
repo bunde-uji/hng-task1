@@ -12,3 +12,10 @@
     align-items: center;
     color: black;
 }
+
+
+@media screen and (max-width: 500px) {
+    .link {
+        height: 50px;
+    }
+}

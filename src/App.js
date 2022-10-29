@@ -12,6 +12,8 @@ import slack3 from '../src/assets/slack3.png';
 import slack4 from '../src/assets/slack4.png';
 import slackIcon from '../src/assets/slack-icon.png';
 import github from '../src/assets/github.png';
+import shareWeb from '../src/assets/share-web.png';
+import shareMobile from '../src/assets/share-mobile.png';
 
 
 function App() {
@@ -22,7 +24,8 @@ function App() {
           <img src={img} alt="" id='profile__img' />
           <h3 className="name" id='twitter'>bundeuji</h3>
           <h3 id='slack'>Bunde</h3>
-          <img src={share} alt="" className='share' />
+          <img src={shareWeb} alt="" className='share' />
+          <img src={shareMobile} alt="" className='shareMobile' />
         </div>
 
         <div className="links-section">
@@ -42,12 +45,12 @@ function App() {
 
       <div className="footer">
         <div className="footer-inner-container">
-          <div className="footer-item zuri">
+          <div className="footer-item zuri" id='zuri'>
             <img src={foot1} alt="" className='foot1' />
             <img src={foot2} alt="" className='foot2' />
           </div>
-          <img src={footText} alt="" className="footer-item" />
-          <img src={i4g} alt="" className="footer-item" />
+          <img src={footText} alt="" className="footer-item" id='text'/>
+          <img src={i4g} alt="" className="footer-item" id='i4g'/>
         </div>
       </div>
     </div>

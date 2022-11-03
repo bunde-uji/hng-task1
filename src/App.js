@@ -38,8 +38,8 @@ function App() {
         </div>
 
         <div className="socials-section">
-          <img src={slackIcon} alt="" />
-          <img src={github} alt="" />
+          <img src={slackIcon} alt="" className='social' />
+          <img src={github} alt="" className='social' />
         </div>
       </div>
 
